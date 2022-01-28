@@ -5,7 +5,10 @@ homepage: https://github.com/fredeil/email-validator.dart
 description: A simple (but correct) dart class for validating email addresses
 
 environment:
-  sdk: ">=2.12.0-0 <3.0.0"
+  sdk: ">=2.15.1 <3.0.0"
 
 dev_dependencies:
-  test: ^1.16.8
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
